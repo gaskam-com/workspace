@@ -1,10 +1,12 @@
 const access_token = Bun.env.GITHUB_ACCESS_TOKEN;
 const username = Bun.env.GITHUB_USERNAME;
+const type: "org" | "user" = Bun.env.GITHUB_TYPE as "org" | "user";
+const target = Bun.env.GITHUB_TARGET;
 
 import { $ } from "bun";
 import { join, resolve } from "node:path";
 
-fetch("https://api.github.com/search/repositories?q=org:gaskam-com", {
+fetch(`https://api.github.com/search/repositories?q=${type}:${target}`, {
     headers: {
         Authorization: `token ${access_token}`,
     },
