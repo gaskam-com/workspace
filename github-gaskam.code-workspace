@@ -50,15 +50,6 @@
         },
         {
             "path": "../BeamRadio/"
-        },
-        {
-            "path": "../workspace-config/"
-        },
-        {
-            "path": "../les-crabes.com-temp/"
-        },
-        {
-            "path": "."
         }
     ]
 }

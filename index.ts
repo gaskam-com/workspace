@@ -14,7 +14,6 @@ fetch(`https://api.github.com/search/repositories?q=${type}:${target}`, {
     .then((response) => response.json())
     .then((data: any) => data.items)
     .then(async (data) => {
-        Bun.write("repos.json", JSON.stringify(data, null, 4));
         // @ts-ignore
         const sortedRepos = data.sort((a, b) => {
             const dateA = new Date(a.pushed_at).getTime();
@@ -37,7 +36,6 @@ fetch(`https://api.github.com/search/repositories?q=${type}:${target}`, {
         content.folders.unshift(...repoNames.map((path) => ({ path })));
         
         Bun.write(workspacePath, JSON.stringify(content, null, 4));
-
     })
     .catch((error) => {
         console.error(error);
