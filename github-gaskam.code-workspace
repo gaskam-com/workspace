@@ -1,0 +1,64 @@
+{
+    "folders": [
+        {
+            "path": "../workspace/"
+        },
+        {
+            "path": "../fresh-bun/"
+        },
+        {
+            "path": "../compacter/"
+        },
+        {
+            "path": "../gaskam.com/"
+        },
+        {
+            "path": "../dev-chrono/"
+        },
+        {
+            "path": "../dev-timer/"
+        },
+        {
+            "path": "../api/"
+        },
+        {
+            "path": "../temp-folder-website/"
+        },
+        {
+            "path": "../.github/"
+        },
+        {
+            "path": "../temp-folder-tool/"
+        },
+        {
+            "path": "../CFG/"
+        },
+        {
+            "path": "../PataLand/"
+        },
+        {
+            "path": "../NOPASSWD-Server/"
+        },
+        {
+            "path": "../NOPASSWD-CLI/"
+        },
+        {
+            "path": "../NOPASSWD-Client/"
+        },
+        {
+            "path": "../NOPASSWD-Web/"
+        },
+        {
+            "path": "../BeamRadio/"
+        },
+        {
+            "path": "../workspace-config/"
+        },
+        {
+            "path": "../les-crabes.com-temp/"
+        },
+        {
+            "path": "."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "workspace-config",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "sorting": "bun index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
