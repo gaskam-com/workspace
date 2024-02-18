@@ -1,4 +1,5 @@
 const access_token = Bun.env.GITHUB_ACCESS_TOKEN;
+const username = Bun.env.GITHUB_USERNAME;
 
 import { $ } from "bun";
 import { join, resolve } from "node:path";
@@ -25,7 +26,7 @@ fetch("https://api.github.com/search/repositories?q=org:gaskam-com", {
         // Check if all the repos are cloned
         repoNames.forEach(async (path) => {
             console.log(resolve(join(__dirname, path)))
-            console.log(await $`git clone https://oauth2:${access_token}@github.com/gaskam-com/${path.split("/")[1]}.git`.cwd(resolve(join(__dirname, "../"))).text());
+            console.log(await $`git clone https://${username}:${access_token}@github.com/gaskam-com/${path.split("/")[1]}.git`.cwd(resolve(join(__dirname, "../"))).text());
         });
         
         const file = Bun.file(workspacePath);
