@@ -1,10 +1,10 @@
 {
     "folders": [
         {
-            "path": "../gaskam.com/"
+            "path": "../workspace/"
         },
         {
-            "path": "../workspace/"
+            "path": "../gaskam.com/"
         },
         {
             "path": "../CFG/"

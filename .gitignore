@@ -1,6 +1,5 @@
 .github
 .vscode
 .env
+.code-workspace
 node_modules
-lib
-dist
