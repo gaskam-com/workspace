@@ -1,16 +1,19 @@
 {
     "folders": [
         {
+            "path": "../gaskam.com/"
+        },
+        {
             "path": "../workspace/"
+        },
+        {
+            "path": "../CFG/"
         },
         {
             "path": "../fresh-bun/"
         },
         {
             "path": "../compacter/"
-        },
-        {
-            "path": "../gaskam.com/"
         },
         {
             "path": "../dev-chrono/"
@@ -29,9 +32,6 @@
         },
         {
             "path": "../temp-folder-tool/"
-        },
-        {
-            "path": "../CFG/"
         },
         {
             "path": "../PataLand/"

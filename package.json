@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "sorting": "bun index.ts"
+    "sorting": "bun index.ts",
+    "deploy": "bun deploy.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

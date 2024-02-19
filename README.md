@@ -9,6 +9,12 @@ GITHUB_USERNAME= your_github_username
 GITHUB_TYPE= user | org
 GITHUB_TARGET= your_github_target
 ```
+
+Or you can run the deploy.sh script to deploy the project:
+
+```bash
+./deploy.sh
+```
     
 Then, you can run the following command:
 
