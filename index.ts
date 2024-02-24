@@ -26,6 +26,7 @@ fetch(`https://api.github.com/search/repositories?q=${type}:${target}`, {
 
         // Check if all the repos are cloned
         repoNames.forEach(async (path) => {
+            console.log(resolve(join(__dirname, path)))
             console.log(await $`git clone https://${username}:${access_token}@github.com/gaskam-com/${path.split("/")[1]}.git`.cwd(resolve(join(__dirname, "../"))).text());
         });
         

@@ -1,19 +1,22 @@
 {
     "folders": [
         {
-            "path": "../workspace/"
+            "path": "../BeamRadio/"
         },
         {
             "path": "../gaskam.com/"
+        },
+        {
+            "path": "../compacter/"
+        },
+        {
+            "path": "../workspace/"
         },
         {
             "path": "../CFG/"
         },
         {
             "path": "../fresh-bun/"
-        },
-        {
-            "path": "../compacter/"
         },
         {
             "path": "../dev-chrono/"
@@ -47,9 +50,6 @@
         },
         {
             "path": "../NOPASSWD-Web/"
-        },
-        {
-            "path": "../BeamRadio/"
         }
     ]
 }
